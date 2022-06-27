@@ -200,6 +200,18 @@ h1.name {
 	padding-top: 50px
 }
 
+.cardcam {
+	width: 47.9%;
+	height: 200px;
+	background-color: #797a16;
+	display: inline-block;
+	margin: 7px 5px;
+	vertical-align: top;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 50px
+}
+
 .card-active , .card:hover{
 	transform: scale(1.02);
 	transition: 0.5s;
