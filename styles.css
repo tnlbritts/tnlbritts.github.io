@@ -200,6 +200,14 @@ h1.name {
 	padding-top: 50px
 }
 
+.card-active , .card:hover{
+	transform: scale(1.02);
+	transition: 0.5s;
+	border: 2px solid #cdcdcd;
+	background-color: #fff;
+	cursor: pointer;
+}
+
 .cardcam {
 	width: 47.9%;
 	height: 200px;
@@ -212,7 +220,7 @@ h1.name {
 	padding-top: 50px
 }
 
-.card-active , .card:hover{
+.cardcam-active , .cardcam:hover{
 	transform: scale(1.02);
 	transition: 0.5s;
 	border: 2px solid #cdcdcd;
